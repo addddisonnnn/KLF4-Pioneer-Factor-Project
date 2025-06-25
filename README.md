@@ -5,6 +5,9 @@ Documenting my progress towards discovering relevant determinants and bettering 
 # Introduction
 Transcription factors have an essential role in regulating gene expression by binding to particular genomic sites. A subclass of TFs called pioneer transcription factors possesses the characteristic of binding to and opening inaccessible condensed chromatin, which is crucial for a myriad of developmental processes such as cell differentiation and reprogramming. Chromatin, composed of DNA wrapped around core histone proteins forming nucleosomes, is organized into complex 3D structures. PFs bind to regions of high amounts of motifs at the ends and loop junctions of nucleosomes. Due to nucleosome structure, PFs are directed toward enhancers, thereby activating transcription.
 
+![image](https://github.com/user-attachments/assets/8a5ae1d3-1b3f-4741-9dd3-78b433b19b2b)
+
+(Clarke, Thomas & Mostoslavsky, Raul. (2022). DNA repair as a shared hallmark in cancer and ageing. Molecular Oncology. 16. 10.1002/1878-0261.13285.)
 
 # Objective
 This project aims to mechanistically understand how transcription factors selectively bind and regulate gene expression, with a focus on Krüppel-like factor 4 (KLF4). The objective is to highlight key predictive variables, such as motifs, co-factor motifs, chromatin accessibility, histone modifications, and other genomic features.
