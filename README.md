@@ -14,7 +14,8 @@ This project aims to mechanistically understand how transcription factors select
 
 
 # Main Steps
-## Step 1: Get the Data
+## Step 1: Compile Datasets
+Check Compile Datasets folder
 
 ## Step 2: Process & Clean our Data
 
