@@ -13,9 +13,9 @@ Transcription factors have an essential role in regulating gene expression by bi
 This project aims to mechanistically understand how transcription factors selectively bind and regulate gene expression, with a focus on Krüppel-like factor 4 (KLF4). The objective is to highlight key predictive variables, such as motifs, co-factor motifs, chromatin accessibility, histone modifications, and other genomic features.
 
 
-# Main Steps
+# Main Steps (folders with more information available)
 ## Step 1: Compile Datasets
-Check Compile Datasets folder
+I got the majority of my data from the Cistrome database, allowing for simple search and filtering for KLF4. All of the datasets on the database are ChIP-seq data, making our lives so much easier. They are also converted to the most up-to-date build, and all of their data has been converted into BED files. We chose datasets that met our standards (>1K peaks). 
 
 ## Step 2: Process & Clean our Data
 
