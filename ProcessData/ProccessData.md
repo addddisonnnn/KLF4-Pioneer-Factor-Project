@@ -6,3 +6,6 @@ FIMO.sh prepares the inputs necessary to run the tool and runs FIMO as well. Thi
 AlignMotif takes the FIMO output (motif scores) and aligns it with the master files so that all the information is compiled. 
 
 Motif_Analysis.R visualizes the amount of motifs seen percentage wise out of each cell line. 
+
+### Here's what the output from running the R file looks like
+![image](https://github.com/user-attachments/assets/2b023882-e2f9-4055-a229-320ec277b04c)
