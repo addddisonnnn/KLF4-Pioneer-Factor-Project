@@ -12,6 +12,6 @@ Motif_Analysis.R visualizes the amount of motifs seen percentage wise out of eac
 
 ![image](https://github.com/user-attachments/assets/6f162d1d-83ff-49e6-a6dc-16ffe38dafaa)
 
-![image](https://github.com/user-attachments/assets/185a9092-f7e6-4df9-b460-2e233944cc4f)
+![image](https://github.com/user-attachments/assets/cc1def89-1ba7-42b5-93f6-8bd26b5a0fc0)
 
 ![image](https://github.com/user-attachments/assets/cbfdbbdb-d7b6-4f1e-8621-ea99cdbcf8b8)
