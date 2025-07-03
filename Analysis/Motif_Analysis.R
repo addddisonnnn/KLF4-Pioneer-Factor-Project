@@ -18,7 +18,7 @@ mouse_data <- read.csv(file.path(base_path, "Mouse_motif.csv"))
 human_cell_lines <- c("BJ", "H9_ESC", "iPSC", "LIS49_hESC", "MCF7", "U87", "HN_SCC")
 mouse_cell_lines <- c("bone_marrow", "Mbd3f", "MEF", "SCC", "V6_5_ESC", "CD19", "ESC", "pre_iPSC", "Prostate_Stem")
 
-# --- 3. Function to process data for a given species ---
+# Function to process data for a given species
 process_motif_data <- function(data, cell_lines, species_name) {
   results <- data.frame(
     Cell_Line = character(),
@@ -63,11 +63,11 @@ process_motif_data <- function(data, cell_lines, species_name) {
   return(results)
 }
 
-# Process Data for Human and Mouse ---
+# Process Data for Human and Mouse
 human_results <- process_motif_data(human_data, human_cell_lines, "Human")
 mouse_results <- process_motif_data(mouse_data, mouse_cell_lines, "Mouse")
 
-# Bar Graphs for KLF4 Motif Percentage ---
+# Bar Graphs for KLF4 Motif Percentage 
 
 # Human Bar Graph
 human_bar_plot <- ggplot(human_results, aes(x = Cell_Line, y = KLF4_Motif_Percentage, fill = Cell_Line)) +
@@ -97,7 +97,7 @@ mouse_bar_plot <- ggplot(mouse_results, aes(x = Cell_Line, y = KLF4_Motif_Percen
 
 print(mouse_bar_plot)
 
-# --- 6. Generate Detailed Tables (Charts) ---
+# Generate Detailed Tables (Charts)
 
 cat("\n--- Human KLF4 Motif Analysis Table ---\n")
 human_table <- human_results %>%
