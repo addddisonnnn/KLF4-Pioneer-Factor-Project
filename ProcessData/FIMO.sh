@@ -11,12 +11,10 @@ module load meme/5.5.7
 # Need to download reference genome files to convert BED to FASTA, genomes from https://hgdownload.soe.ucsc.edu/downloads.html
 wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
 gunzip hg38.fa.gz
-mv hg38.fa humansequence.fa
 wget https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.fa.gz
 gunzip mm10.fa.gz
-mv mm10.fa mousesequence.fa
 
-# Convert the bed files to fasta. 
+# Convert the bed files to fasta. The bed files contain the chrom, start, and end which is all needed as well as the reference genomes to get the sequences of interest
 module load bedtools
 bedtools getfasta -fi hg38.fa -bed humanmaster.bed -fo humansequence.fa
 bedtools getfasta -fi mm10.fa -bed mousemaster.bed -fo mousesequence.fa 
