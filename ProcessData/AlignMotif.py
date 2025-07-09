@@ -6,11 +6,7 @@ from collections import defaultdict
 import numpy as np # Import numpy for NaN checks
 
 def parse_fasta(fasta_file_path):
-    """
-    Parses a FASTA file and returns a dictionary mapping sequence IDs to their sequences.
-    Assumes standard FASTA format where header lines start with '>'
-    and sequence lines follow.
-    """
+    #Parses a FASTA file and returns a dictionary mapping sequence IDs to their sequences.
     sequences = {}
     current_seq_id = None
     current_sequence = []
@@ -32,11 +28,8 @@ def parse_fasta(fasta_file_path):
     return sequences
 
 def parse_fimo_tsv(fimo_tsv_file_path):
-    """
-    Parses a FIMO TSV file and organizes motif hits by chromosome.
-    Returns a dictionary where keys are chromosome names and values are lists of
-    dictionaries, each representing a motif hit with 'start', 'stop', 'strand', 'score'.
-    """
+    #Parses a FIMO TSV file and organizes motif hits by chromosome.
+    #Returns a dictionary where keys are chromosome names and values are lists of dictionaries, each representing a motif hit with 'start', 'stop', 'strand', 'score'.
     fimo_motifs = defaultdict(list)
 
     # Read the FIMO TSV directly with pandas to handle headers and types
@@ -87,13 +80,8 @@ def parse_fimo_tsv(fimo_tsv_file_path):
     return fimo_motifs
 
 def analyze_klf4_binding(bed_file_path, fasta_file_path, fimo_tsv_file_path, output_csv_path):
-    """
-    Analyzes KLF4 binding by combining information from BED, FASTA, and FIMO TSV files.
-    """
+    #Analyzes KLF4 binding by combining information from BED, FASTA, and FIMO TSV files.
     # --- 1. Load BED file ---
-    # The BED file is assumed to have 10 columns as specified.
-    # We'll assign the column names directly during loading.
-    # UPDATED: Column names for the BED file
     bed_column_names = [
         "chrom", "start", "end", "BJ", "H9_ESC", "iPSC",
         "LIS49_hESC", "MCF7", "U87", "HN_SCC"
