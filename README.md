@@ -18,6 +18,7 @@ This project aims to mechanistically understand how transcription factors select
 I got the majority of my data from the Cistrome database, allowing for simple search and filtering for KLF4. All of the datasets on the database are ChIP-seq data, making our lives so much easier. They are also converted to the most up-to-date build, and all of their data has been converted into BED files. We chose datasets that met our standards (>1K peaks). 
 
 ## Step 2: Process & Clean our Data
+This is where we figure out potential variables, factors, or determinants of interest. Histone methylation/modifications, other transcription factors, and more are examples. 
 
 ## Step 3: ML Model Training
 
