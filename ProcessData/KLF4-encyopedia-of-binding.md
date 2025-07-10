@@ -12,7 +12,7 @@ This keeps track of all the columns in the Master file, what it should store, wh
 
 ### Progression of columns of the human master file: 
 chrom    start   end    BJ     H9_ESC iPSC   LIS49_hESC     MCF7   U87    HN_SCC
-chrom,start,end,BJ_epi,BJ_iPSC,H9_ESC,iPSC,LIS49_hESC,MCF7_endo,MCF7_induc,U87,HN_SCC,Klf4 motif,Klf4 motif score,Number of Klf4 motifs,Strand,Total motif score
+chrom,start,end,BJ_epi,BJ_iPSC,H9_ESC,iPSC,LIS49_hESC,MCF7_endo,MCF7_induc,U87,HN_SCC,Klf4 motif,Klf4 motif score,Number of Klf4 motifs,Strand,Total motif score,H3K4ME3
 
 
 ### Progression of columns of the mouse master file: 
