@@ -60,3 +60,6 @@ rm -f "$TEMP_KLF4_BED_WITH_IDS" "$TEMP_OVERLAPPING_IDS"
 
 echo "Done. Output saved to: '$OUTPUT_CSV_FILE'"
 date
+
+# This tells you how many regions/lines see KLF4 and histone methylation overlap
+awk -F',' 'NR > 1 {sum += $NF} END {print sum}' $OUTPUT_CSV_FILE
