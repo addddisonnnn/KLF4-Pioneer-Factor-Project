@@ -26,3 +26,15 @@ fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc humanmo
 fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc mousemotif mouse.meme mousesequence.fa
 
 # Output saved to humanmotif and mousemotif directories, relevant files are named fimo.tsv within these directories
+
+# More running of FIMO with more potential motifs
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc ZNF384 ZNF384.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc OTX2 OTX2.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc TP53 TP53.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc ZBED4 ZBED4.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc ZNF460 ZNF460.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc ZBTB6 ZBTB6.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc FOSL2 FOSL2.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc ZNF213 ZNF213.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc POU6F2 POU6F2.meme humansequence.fa
+fimo --thresh 1e-3 --max-stored-scores 1000000 --parse-genomic-coord -oc FOXC2 FOXC2.meme humansequence.fa
