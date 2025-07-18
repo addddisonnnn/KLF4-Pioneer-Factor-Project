@@ -15,3 +15,8 @@ bowtie2 -p 16 -f -x /projects/academic/mjbuck/References/igenome-041714/Bowtie2_
 # -1 : first fasta file (usually from SRR/NCBI)
 # -2 : second fasta file (usually from SRR/NCBI)
 # samtools converts sam to bam file
+
+# the following is if there is one fasta input, not two
+echo "Running bowtie2 . . . "
+bowtie2 -p 16 -f -x /projects/academic/mjbuck/References/genomes-01202020/human/gencode/R36.GRCh38.p13/Sequence/Bowtie2/GRCh38.p13.genome 
+-U H3K27me3.fasta 2> H3K27me3_alignmentstats2 | samtools sort -@ 12 -O bam -o H3K27me3_sorted.bam
