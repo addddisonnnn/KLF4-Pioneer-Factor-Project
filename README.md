@@ -21,6 +21,7 @@ I got the majority of my data from the Cistrome database, allowing for simple se
 This is where we figure out potential variables, factors, or determinants of interest. Histone methylation/modifications, other transcription factors, and more are examples. I ran MEME-Suite's FIMO tool to get information about whether the KLF4 motif is bound at the region, KLF4 motif score, strand (+,-), and total KLF4 motif score (because sometimes one region can have several KLF4 motifs bound potentially).
 
 ## Step 3: ML Model Training
+Utilized machine learning techniques to study KLF4 binding in different cell types based on a myriad of determinants. Random forests and decision trees were the first techniques used. Also, two cell types we focused on were Head-Neck Sarcoma cells and MCF7 cells.
 
 ## Step 4: Employ Predictive Models
 
