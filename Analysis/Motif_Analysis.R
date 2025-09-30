@@ -11,7 +11,7 @@ library(kableExtra)
 library(tidyr) # For pivot_longer
 
 # Load the human and mouse data 
-base_path <- "/Users/addisonyam/Documents/BuckLab/"
+base_path <- "/Users/addisonyam/Documents/KLF4/"
 human_data <- read.csv(file.path(base_path, "Human_motif.csv"))
 mouse_data <- read.csv(file.path(base_path, "Mouse_motif.csv"))
 
